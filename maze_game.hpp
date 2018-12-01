@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include "maze_factory.hpp"
 
 class maze_game {
@@ -14,3 +15,15 @@ public:
         return maze;
     }
 };
+//
+//class faery_maze_game : maze_game {
+//
+//};
+//
+//class dystopian_maze_game : maze_game {
+//
+//};
+
+
+
+
