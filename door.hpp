@@ -8,6 +8,7 @@ public:
     virtual void print() = 0;
 };
 
+// prints the door for faery land
 class faery_land_door : public Door {
 public:
     void print() override {
@@ -15,6 +16,7 @@ public:
     }
 };
 
+// prints the door for dystopian maze
 class dystopian_maze_door : public Door {
 public:
     void print() override {

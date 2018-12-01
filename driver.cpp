@@ -1,8 +1,6 @@
 #include <iostream>
 
 #include "maze_game.hpp"
-#include "faery_land.hpp"
-#include "dystopian_maze.hpp"
 
 using namespace std;
 int main() {

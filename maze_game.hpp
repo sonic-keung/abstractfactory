@@ -3,8 +3,10 @@
 #include <iostream>
 #include "maze_factory.hpp"
 
+// Used to create different mazes using the abstract factory pattern.
 class maze_game {
 public:
+    // Creates a maze with maze features and returns it.
     Maze *create_maze(maze_factory& factory) {
         Maze *maze = factory.make_maze();
         Wall *wall = factory.make_wall();
@@ -15,15 +17,3 @@ public:
         return maze;
     }
 };
-//
-//class faery_maze_game : maze_game {
-//
-//};
-//
-//class dystopian_maze_game : maze_game {
-//
-//};
-
-
-
-

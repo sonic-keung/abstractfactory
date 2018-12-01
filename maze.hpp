@@ -8,6 +8,7 @@ public:
     virtual void print() = 0;
 };
 
+// prints the maze for faery land
 class faery_land_maze : public Maze {
 public:
     void print() override {
@@ -15,6 +16,7 @@ public:
     }
 };
 
+// prints the maze for dystopian maze
 class dystopian_maze_maze : public Maze {
 public:
     void print() override {
